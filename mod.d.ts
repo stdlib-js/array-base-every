@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2024 The Stdlib Authors.
@@ -16,27 +16,32 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@main/index.d.ts"/>
+
+import { Collection, AccessorArrayLike } from '@stdlib/types/array';
 
 /**
-* Test whether all elements in a collection are truthy.
+* Tests whether all elements in an array are truthy.
 *
-* @module @stdlib/array-base-every
+* ## Notes
+*
+* -   The function immediately returns upon encountering a non-truthy value.
+* -   If provided an empty collection, the function returns `true`.
+*
+* @param x - input array
+* @returns boolean indicating whether all elements are truthy
 *
 * @example
-* var every = require( '@stdlib/array-base-every' );
-*
 * var x = [ 1, 2, 3, 4 ];
 *
 * var out = every( x );
 * // returns true
 */
-
-// MODULES //
-
-var main = require( './main.js' );
+declare function every<T = unknown>( x: Collection<T> | AccessorArrayLike<T> ): boolean;
 
 
 // EXPORTS //
 
-module.exports = main;
+export = every;
