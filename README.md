@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import every from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-every@deno/mod.js';
+import every from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-every@v0.2.0-deno/mod.js';
 ```
 
 #### every( x )
@@ -93,7 +93,7 @@ var bool = every( x );
 
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
-import every from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-every@deno/mod.js';
+import every from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-every@v0.2.0-deno/mod.js';
 
 var x = discreteUniform( 10, 0, 10, {
     'dtype': 'int32'
