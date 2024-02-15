@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import every from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-every@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-base-every/tags). For example,
+
+```javascript
 import every from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-every@v0.2.0-deno/mod.js';
 ```
 
@@ -93,7 +98,7 @@ var bool = every( x );
 
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
-import every from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-every@v0.2.0-deno/mod.js';
+import every from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-every@deno/mod.js';
 
 var x = discreteUniform( 10, 0, 10, {
     'dtype': 'int32'
