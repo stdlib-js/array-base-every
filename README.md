@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import every from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-every@esm/index.mjs';
+import every from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-every@v0.3.1-esm/index.mjs';
 ```
 
 #### every( x )
@@ -98,7 +98,7 @@ var bool = every( x );
 <script type="module">
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
-import every from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-every@esm/index.mjs';
+import every from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-every@v0.3.1-esm/index.mjs';
 
 var x = discreteUniform( 10, 0, 10, {
     'dtype': 'int32'
